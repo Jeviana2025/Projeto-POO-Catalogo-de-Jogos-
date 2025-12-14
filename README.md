@@ -21,11 +21,31 @@ O projeto consiste no desenvolvimento, em Python, de um sistema para gerenciamen
 
 7. Usuário
     Representa o usuário do sistema. Um usuário pode possuir um catálogo de jogos e diversas coleções personalizadas.
+       1. Descrição Geral
+
+O sistema Catálogo de Jogos Digitais tem como objetivo permitir que usuários registrem, acompanhem e analisem seu progresso em jogos digitais, aplicando conceitos de Programação Orientada a Objetos, como encapsulamento, herança simples e múltipla, métodos especiais e regras de negócio configuráveis.
+
+2. Principais Classes do Sistema
+2.1 Classe Usuário
+
+Representa a pessoa que utiliza o sistema e gerencia seu catálogo de jogos.
+
+## 📝Atributos:
+nome
+tipo_de_jogador (casual, competitivo, hardcore, etc.)
+tempo_total_jogado
+lista_de_jogos
+## 📝Métodos:
+adicionar_jogo()
+remover_jogo(
+listar_jogos()
+calcular_tempo_total_jogado()
+gerar_relatorio_pessoal()
    
-8. Classe Relatorio
+9. Classe Relatorio
     Responsável por gerar estatísticas e informações consolidadas do catálogo, como total de horas jogadas, percentual de jogos por status e lista dos jogos mais jogados.
 
-9. Configuracoes
+10. Configuracoes
    Gerenciar as configurações do usuário (meta anual, gêneros favoritos, limite de jogos simultâneos) lidas e salvas no settings.json.
    
 ------------------------------------------------------------------------
